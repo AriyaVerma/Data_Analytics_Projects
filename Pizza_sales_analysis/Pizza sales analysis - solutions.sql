@@ -13,7 +13,7 @@ pizza_id text not null,
 quantity int not null,
 primary key(order_details_id) );
 
--- QUESTIONS AND THEIR SOLUTIONS:
+**QUESTIONS AND THEIR SOLUTIONS:**
 -- Retrieve the total number of orders placed.
 select count(order_id) as total_orders from orders;
 
